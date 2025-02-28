@@ -1,0 +1,29 @@
+/* Gradient Background */
+body {
+
+
+    background: linear-gradient(to right, #071f03, #1a5e0f);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  /* Style for the marked dates */
+  .marked {
+    background-color: #29ff08!important;
+  }
+  
+  /* Optional: Add hover effect to marked dates */
+  .react-calendar__tile--active {
+    background-color: #00796b; /* Hover color for marked dates */
+  }
+  
